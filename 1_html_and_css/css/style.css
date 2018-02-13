@@ -1,0 +1,44 @@
+p,
+ul
+{
+    margin-bottom: 16px;
+}
+
+ul,
+ol
+{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+body
+{
+    padding: 20px 40px;
+}
+
+
+
+/* Style ordering */
+.main_title
+{
+    color: red;
+}
+
+
+
+/* Style specificity */
+/*
+.simple_list li
+{
+    color: gray;
+}
+
+.simple_list li.active_item
+{
+    color: red;
+}
+
+ul.simple_list li
+{
+    color: blue;
+}*/

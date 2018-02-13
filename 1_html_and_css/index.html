@@ -2,9 +2,30 @@
 <html>
     <head>
         <title>Первая страница на HTML</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <h1>Hello!</h1>
-        <p>Я первый абзац</p>
+        <h1 class="main_title page_title">Привет!</h1>
+        <p>Проверим, как работают стили на странице.</p>
+        <div class="list_container turtles_list_container">
+            <h2 class="list_title">Teenage mutant ninja turtles</h2>
+            <ul class="simple_list">
+                <li>Leonardo</li>
+                <li class="active_item">Michelangelo</li>
+                <li>Raphael</li>
+                <li>Donatello</li>
+            </ul>
+        </div>
+        
+        <div class="list_container turtles_list_container">
+            <h2 class="list_title">Teenage mutant ninja turtles enemies</h2>
+            <ol class="simple_list">
+                <li>Bebop</li>
+                <li>Rocksteady</li>
+                <li class="active_item">Shredder</li>
+                <li>Crang</li>
+            </ol>
+        </div>
     </body>
 </html>
