@@ -16,29 +16,43 @@ body
     padding: 20px 40px;
 }
 
-
-
-/* Style ordering */
-.main_title
+.container
 {
-    color: red;
+    border: 1px dotted;
+    padding: 20px;
+}
+
+.block_one
+{
+    height: 100px;
+    border: 1px solid blue;
+}
+
+.block_two
+{
+    height: 100px;
+    border: 1px solid red;
 }
 
 
-
-/* Style specificity */
-/*
-.simple_list li
+.owl_photo
 {
-    color: gray;
+    float: left;
 }
 
-.simple_list li.active_item
+.photo_caption
 {
-    color: red;
+    float: left;
+    margin-left: 20px;
+    width: 500px;
 }
 
-ul.simple_list li
+.about_owl
 {
-    color: blue;
-}*/
+    margin: 50px 0;
+}
+
+.clear
+{
+    clear: both;
+}
