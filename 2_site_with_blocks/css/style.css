@@ -1,0 +1,83 @@
+.clear
+{
+    clear: both;
+}
+
+.main_container
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header
+{
+    margin: 20px 0;
+}
+
+.logo
+{
+    float: left;
+    border-radius: 5px;
+    height: 75px;
+    width: 240px;
+    margin-right: 20px;
+    background: #20aae1;
+}
+
+.top_menu
+{
+    float: left;
+    border-radius: 5px;
+    height: 75px;
+    width: 740px;
+    background: #b2b3b3;
+}
+
+.slider
+{
+    border-radius: 5px;
+    background: #808282;
+    height: 220px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+.columns_container
+{
+    margin-bottom: 20px;
+}
+
+.column
+{
+    border-radius: 5px;
+    float: left;
+    width: 320px;
+    margin-right: 20px;
+    height: 400px;
+    background: #9eddf8;
+}
+
+.column.last
+{
+    margin-right: 0;
+}
+
+.footer
+{
+    border-radius: 5px;
+    height: 75px;
+    background: #42778c;
+}
+
+.page_title
+{
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.page_description
+{
+    color: #fff;
+    font-family: sans-serif;
+}
