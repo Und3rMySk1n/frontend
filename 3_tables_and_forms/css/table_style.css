@@ -12,11 +12,13 @@ body
 .movies_table
 {
     font-family: 'Open Sans', serif;
-    border-spacing: 0;
     font-size: 14px;
+
+    border-spacing: 0;
     border-radius: 6px;
-    overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.16);
+
+    overflow: hidden;
 }
 
 .movies_table tr:nth-child(odd)
