@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Пример работы с таблицами</title>
+    <link rel="stylesheet" href="css/table_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  </head>
+  <body>
+    <h2>Таблица со стандартными стилями</h2>
+    <table>
+      <tr>
+        <th></th>
+        <th>Гравитация</th>
+        <th>Чужой</th>
+        <th>Прометей</th>
+        <th>Лабиринт Фавна</th>
+        <th>50 оттенков серого</th>
+      </tr>
+      <tr>
+        <td>Жанр</td>
+        <td>Фантастика</td>
+        <td>Ужасы</td>
+        <td>Фантастика</td>
+        <td>Фэнтези</td>
+        <td>Драма</td>
+      </tr>
+      <tr>
+        <td>Режиссер</td>
+        <td>Альфонсо Куарон</td>
+        <td colspan="2">Ридли Скотт</td>
+        <td>Гильермо дель Торо</td>
+        <td>Сэм Тейлор-Джонсон</td>
+      </tr>
+      <tr>
+        <td>Рейтинг</td>
+        <td>7.495</td>
+        <td>8.075</td>
+        <td>7.023</td>
+        <td>7.550</td>
+        <td>4.413</td>
+      </tr>
+      <tr>
+        <td>Премьера в мире</td>
+        <td>28 августа 2013</td>
+        <td rowspan="2">25 мая 1979</td>
+        <td>11 апреля 2012</td>
+        <td>27 мая 2006</td>
+        <td>09 февраля 2015</td>
+      </tr>
+      <tr>
+        <td>Премьера в РФ</td>
+        <td>03 октября 2013</td>
+        <td>31 мая 2012</td>
+        <td>30 ноября 2006</td>
+        <td>12 февраля 2015</td>
+      </tr>
+    </table>
+
+    <h2 class="table_title">Таблица с применением CSS</h2>
+    <table class="movies_table">
+      <tr>
+        <th></th>
+        <th>Гравитация</th>
+        <th>Чужой</th>
+        <th>Прометей</th>
+        <th>Лабиринт Фавна</th>
+        <th>50 оттенков серого</th>
+      </tr>
+      <tr>
+        <td>Жанр</td>
+        <td>Фантастика</td>
+        <td>Ужасы</td>
+        <td>Фантастика</td>
+        <td>Фэнтези</td>
+        <td>Драма</td>
+      </tr>
+      <tr>
+        <td>Режиссер</td>
+        <td>Альфонсо Куарон</td>
+        <td class="marked" colspan="2">Ридли Скотт</td>
+        <td>Гильермо дель Торо</td>
+        <td>Сэм Тейлор-Джонсон</td>
+      </tr>
+      <tr>
+        <td>Рейтинг</td>
+        <td>7.495</td>
+        <td>8.075</td>
+        <td>7.023</td>
+        <td>7.550</td>
+        <td>4.413</td>
+      </tr>
+      <tr>
+        <td>Премьера в мире</td>
+        <td>28 августа 2013</td>
+        <td class="marked" rowspan="2">25 мая 1979</td>
+        <td>11 апреля 2012</td>
+        <td>27 мая 2006</td>
+        <td>09 февраля 2015</td>
+      </tr>
+      <tr>
+        <td>Премьера в РФ</td>
+        <td>03 октября 2013</td>
+        <td>31 мая 2012</td>
+        <td>30 ноября 2006</td>
+        <td>12 февраля 2015</td>
+      </tr>
+    </table>
+  </body>
+</html>
