@@ -1,61 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Пример работы с формой</title>
-    <link rel="stylesheet" href="css/form_style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-  </head>
-  <body>
-    <h2 class="form_title">Пример работы с формой</h2>
-    <form action="php/form_handler.php" method="get" class="film_rating_form">
-      <div class="form_row">
-        <label for="username">Ваше имя:</label>
-        <input type="text" name="username" id="username">
-      </div>
-      <div class="form_row">
-        <label for="email">Ваш email:</label>
-        <input type="text" name="email" id="email">
-      </div>
-      <div class="form_row">
-        <label for="favorite_film">Ваш любимый фильм:</label>
-        <select name="favorite_film" id="favorite_film">
-          <option value="gravity">Гравитация</option>
-          <option value="gravity">Чужой</option>
-          <option value="gravity">Прометей</option>
-          <option value="gravity">Лабиринт Фавна</option>
-          <option value="gravity">50 оттенков серого</option>
-        </select>
-      </div>
-      <div class="form_row">
-        <p>Оценка:</p>
-        <div class="rating_container">
-          <label>1
-            <input name="rating" type="radio" value="1">
-          </label>
-          <label>2
-            <input name="rating" type="radio" value="2">
-          </label>
-          <label>3
-            <input name="rating" type="radio" value="3">
-          </label>
-          <label>4
-            <input name="rating" type="radio" value="4">
-          </label>
-          <label>5
-            <input name="rating" type="radio" value="5">
-          </label>
-        </div>
-      </div>
-      <div class="form_row">
-        <label class="comment_label" for="comment">Комментарий:</label>
-        <textarea id="comment" name="comment">Напишите о себе...</textarea>
-      </div>
-      <div>
-        <input id="normal" class="" type="checkbox" name="recommend" value="1">
-        <label for="normal" class="checkbox_label">Рекомендую фильм друзьям</label>
-      </div>
-      <input type="submit" value="Отправить" class="submit_form">
-    </form>
-  </body>
+    <head>
+        <meta charset="utf-8">
+        <title>Пример работы с формой</title>
+        <link rel="stylesheet" href="css/form_style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    </head>
+    <body>
+        <h2 class="form_title">Пример работы с формой</h2>
+        <form action="php/form_handler.php" method="get" class="film_rating_form">
+            <div class="form_row">
+                <label for="username">Ваше имя:</label>
+                <input type="text" name="username" id="username">
+            </div>
+
+            <div class="form_row">
+                <label for="username">Ваше фото:</label>
+                <input type="file" name="photo">
+            </div>
+
+            <div class="form_row">
+                <label for="email">Ваш email:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="form_row">
+                <label for="favorite_film">Ваш любимый фильм:</label>
+                <select name="favorite_film" id="favorite_film">
+                    <option value="gravity">Гравитация</option>
+                    <option value="alien">Чужой</option>
+                    <option value="prometeus">Прометей</option>
+                    <option value="favn">Лабиринт Фавна</option>
+                    <option value="shades">50 оттенков серого</option>
+                </select>
+            </div>
+            <div class="form_row">
+                <p>Оценка:</p>
+                <div class="rating_container">
+                    <input name="rating" type="radio" value="1" id="checkBoxOne">
+                    <label for="checkBoxOne">1</label>
+
+                    <input name="rating" type="radio" value="2" id="checkBoxTwo">
+                    <label for="checkBoxTwo">2</label>
+
+                    <input name="rating" type="radio" value="3" id="checkBoxThree">
+                    <label for="checkBoxThree">3</label>
+
+                    <input name="rating" type="radio" value="4" id="checkBoxFour">
+                    <label for="checkBoxFour">4</label>
+
+                    <input name="rating" type="radio" value="5" id="checkBoxFive">
+                    <label for="checkBoxFive">5</label>
+                </div>
+            </div>
+            <div class="form_row">
+                <label class="comment_label" for="comment">Комментарий:</label>
+                <textarea id="comment" placeholder="Введите пару слов..." name="comment" rows="5"></textarea>
+            </div>
+            <div>
+                <input id="normal" class="" type="checkbox" name="recommend" value="1">
+                <label for="normal" class="checkbox_label">Рекомендую фильм друзьям</label>
+            </div>
+            <input type="submit" value="Отправить" class="submit_form">
+        </form>
+    </body>
 </html>
