@@ -14,6 +14,9 @@ var matrix= [
 ];
 console.log('Left center number of matrix: ', matrix[1][0]);
 
+var stringAsArray = 'Строка - тоже массив';
+console.log('Third letter: ', stringAsArray[2]);
+console.log('String length: ', stringAsArray.length);
 
 console.log('----------- Объекты -----------');
 // Объекты
