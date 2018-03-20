@@ -1,0 +1,42 @@
+@import 'vars';
+@import 'reset';
+
+.left_list
+{
+    float: left;
+    width: 400px;
+    border-radius: 10px;
+    
+    .title
+    {
+        font-family: Georgia, sans-serif;
+        font-size: 24px;
+        display: inline-block;
+        border-bottom: 2px solid $leftListColor;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    ul
+    {
+        font-size: 18px;
+        font-family: Verdana;
+        
+        li
+        {
+            list-style-type: square;
+            margin-bottom: 5px;
+            
+            &.active_item
+            {
+                color: $leftListColor;
+            }
+        }
+    }
+}
+
+.right_list
+{
+    @extend .left_list;
+    margin-right: 20px;
+}

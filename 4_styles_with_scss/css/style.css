@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.left_list, .right_list {
+  float: left;
+  width: 400px;
+  border-radius: 10px;
+}
+.left_list .title, .right_list .title {
+  font-family: Georgia, sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  border-bottom: 2px solid #143;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.left_list ul, .right_list ul {
+  font-size: 18px;
+  font-family: Verdana;
+}
+.left_list ul li, .right_list ul li {
+  list-style-type: square;
+  margin-bottom: 5px;
+}
+.left_list ul li.active_item, .right_list ul li.active_item {
+  color: #143;
+}
+
+.right_list {
+  margin-right: 20px;
+}
