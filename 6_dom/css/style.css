@@ -1,0 +1,51 @@
+*
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    padding: 20px;
+}
+
+.text
+{
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.strong_text
+{
+    font-weight: bold;
+}
+
+.king
+{
+    color: firebrick;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.clicker_button
+{
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    background-color: darkslategrey;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    outline: none;
+}
+
+.clicker_button:hover
+{
+    background-color: darkred;
+}
+
+.container
+{
+    max-width: 1000px;
+    margin: 0 auto;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Изучаем JavaScript</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Изучаем Объектную модель документа</h1>
+            <p class="text"><span class="strong_text">BOM (Browser Object Model)</span> - объектная модель браузера. BOM не имеет отношения к документу, но с объектами браузера можно также взаимодействовать.</p>
+
+            <div class="one">
+                <p class="text">Зима близко</p>
+                <ul class="list" id="starks">
+                    <li class="list_item">Нед Старк</li>
+                    <li class="list_item">Робб Старк</li>
+                    <li class="list_item" id="kingOfTheNorth">Джон Сноу</li>
+                    <li class="list_item">Санса Старк</li>
+                </ul>
+
+                <p class="text">Ланнистеры всегда платят свои долги</p>
+                <ol class="list">
+                    <li class="list_item">Тайвин Ланнистер</li>
+                    <li class="list_item">Серсея Ланнистер</li>
+                    <li class="list_item">Джейми Ланнистер</li>
+                    <li class="list_item">Джоффри Баратеон</li>
+                </ol>
+            </div>
+
+            <div class="two">
+                <p class="text">
+                    <span class="strong_text">DOM (Document Object Model)</span> - это объектная модель документа. Эта модель представляет HTML-страницу как дерево HTML-элементов. Корнем дерева является глобальный объект document, он дает возможность взаимодействовать с элементами страницы, 
+                </p>
+            </div>
+
+            <button id="clicker" class="clicker_button">Click me! (<span id="counter">0</span>)</button>
+            <button class="clicker_button">Click me! (<span>0</span>)</button>
+            <button class="clicker_button">Click me! (<span>0</span>)</button>
+        </div>
+        
+        <a href="/main-page.html" id="page_link">Click me!</a>
+        
+        <script src="js/main.js"></script>
+        <script src="js/dom.js"></script>
+        <script src="js/events.js"></script>
+    </body>
+</html>
