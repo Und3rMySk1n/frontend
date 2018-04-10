@@ -2,7 +2,6 @@ console.log('----------- Массивы -----------');
 
 var simpleArray = [];
 var ninjas = ['Leo', 'Mike', 'Raph', 'Don'];
-
 console.log('Length: ', ninjas.length);
 
 
@@ -26,7 +25,6 @@ console.log('String length: ', stringAsArray.length);
 
 
 console.log('----------- Объекты -----------');
-// Объекты
 
 var emptyObject = {};
 

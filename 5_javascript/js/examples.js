@@ -1,4 +1,5 @@
 console.log('----------- Переменные -----------');
+
 // Переменные
 var exampleVariable = 'I am a string';
 var undefinedVariable;
