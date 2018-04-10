@@ -8,7 +8,7 @@
     </head>
     <body>
         <h2 class="form_title">Пример работы с формой</h2>
-        <form action="php/form_handler.php" method="get" class="film_rating_form">
+        <form action="php/form_handler.php" method="get" class="film_rating_form" id="films_form">
             <div class="form_row">
                 <label for="username">Ваше имя:</label>
                 <input type="text" name="username" id="username">
@@ -62,5 +62,8 @@
             </div>
             <input type="submit" value="Отправить" class="submit_form">
         </form>
+        
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
